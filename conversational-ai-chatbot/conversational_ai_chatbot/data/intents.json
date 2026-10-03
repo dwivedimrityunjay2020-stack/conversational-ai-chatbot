@@ -1,0 +1,148 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "is anyone there",
+        "hey there"
+      ],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi! What would you like to know?",
+        "Hey! I'm ready to help."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "talk to you later",
+        "have a nice day"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you later!",
+        "Thanks for chatting. Goodbye!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "thanks a lot",
+        "appreciate it",
+        "that was helpful"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "what courses do you offer",
+        "which courses are available",
+        "tell me about courses",
+        "what programs are offered",
+        "what can I study"
+      ],
+      "responses": [
+        "We offer Computer Science, AI/ML, Data Analytics, and other technology-focused programs.",
+        "You can ask about Computer Science, AI/ML, or Data Analytics programs."
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "what are the fees",
+        "how much does the course cost",
+        "tell me the fee structure",
+        "course fees",
+        "tuition fee"
+      ],
+      "responses": [
+        "Fee structures depend on the program. Please contact the admissions office for the latest official fee details.",
+        "The fee varies by program and intake. The admissions office can provide the current amount."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "when are you open",
+        "what are your working hours",
+        "opening hours",
+        "office hours",
+        "when can I contact you"
+      ],
+      "responses": [
+        "Our example support hours are Monday to Friday, 9 AM to 6 PM.",
+        "Support is available during standard business hours on weekdays."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "how can I contact you",
+        "contact details",
+        "phone number",
+        "email address",
+        "how do I reach support"
+      ],
+      "responses": [
+        "Please use the official contact page or admissions office for current phone and email details.",
+        "You can contact the support or admissions team through the organization's official contact channels."
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "how do I apply",
+        "admission process",
+        "how can I get admission",
+        "application process",
+        "what is the admission procedure"
+      ],
+      "responses": [
+        "The typical process is: choose a program, check eligibility, submit an application, and complete the required admission steps.",
+        "Start by checking the program eligibility and submitting the official application form."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "where are you located",
+        "location",
+        "where is the campus",
+        "what is your address",
+        "where can I find you"
+      ],
+      "responses": [
+        "Please check the organization's official website for the latest campus or office address.",
+        "The current location and directions should be verified through the official contact page."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help",
+        "what can you do",
+        "what questions can I ask",
+        "show me what you know",
+        "how can you help me"
+      ],
+      "responses": [
+        "I can answer questions about courses, fees, admissions, hours, contact details, and location."
+      ]
+    }
+  ]
+}
